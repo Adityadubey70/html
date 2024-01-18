@@ -1,0 +1,26 @@
+.parent{
+    height: 500px;
+    width: 80vh;
+    border: 2px solid black;
+    margin: 10% auto;
+    display: grid;
+    grid-template-columns:100px 100px 100px ;
+    grid-template-rows: 30px 30px 30px;
+    grid-auto-rows: 40px;
+    grid-auto-columns: 60px;
+    /* grid-auto-flow: column; */
+    /* grid-auto-rows: 50px; */
+    grid-gap: 15px;
+
+}
+.childe{
+    background-color: rgb(70, 188, 225);
+    border:2px solid green; 
+
+}
+#one{
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 2;
+grid-column-end: 3;
+}

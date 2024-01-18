@@ -1,0 +1,40 @@
+{
+    margin:0.1px;
+    padding: 1px;
+}
+navbar{
+    color: chocolate;
+    margin: 10px;
+    background: black;
+    height: 50px;
+}
+#one{
+    margin: 10px;
+}
+#two{
+    color: white;
+    margin: 10px;
+    font: size 20px;
+}
+button{
+    background-color: orangered;
+    width: 80px;
+    margin: 10px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    font-weight: bolder;   
+}
+@media screen and (max-width: 500px;){
+    navbar{
+        dispay: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+  #two a{
+    display: flex;
+    flex-direction: column;
+  }  
+}

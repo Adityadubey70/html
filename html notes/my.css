@@ -1,0 +1,33 @@
+.main{
+    height: 100px;
+    width: 100px;
+
+}
+#one{
+    background-color: red;
+    flex-basis: 200px;
+    flex-grow: 2;
+
+}
+#two{
+background-color: yellow;
+flex-grow: 1;
+}
+#three{
+    background-color: brown;
+
+}
+#four{
+    background-color: blue;
+}
+#five{
+    background-color: black;
+}
+#perent{
+    border: 4px ditted black;
+    display: flex;
+    height: 500px;
+    width: 90px;
+    flex-wrap: wrap;
+    align-items: center;
+}

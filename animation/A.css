@@ -1,0 +1,25 @@
+div{
+    height: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+background: linear-gradient(red,blue);
+border-radius: 30%;
+border: 5px solid;
+animation-duration: 1000ms;
+animation-timing-function: ease-in;
+animation-timing-function: infinite;
+animation-direction: alternate;
+}
+@keyframes bounce{
+    0%{
+        transition:translateY(0px);
+    }
+    100%{
+        transition: translateY(85vh) rotate(360deg);
+    }
+
+}
